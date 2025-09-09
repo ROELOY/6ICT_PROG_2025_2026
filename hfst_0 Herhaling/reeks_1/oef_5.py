@@ -16,7 +16,7 @@ def vergelijker(x,y):
         vergelijking = (f'{x} is kleiner dan {y}')
     elif x>y:
         vergelijking = (f'{x} is groter dan {y}')
-    return vergelijking
+    print(vergelijking)
 
 vergelijker(4,3) # 4 is groter dan 3
 vergelijker(2,9) # 2 is kleiner dan 9
